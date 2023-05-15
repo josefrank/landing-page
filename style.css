@@ -13,7 +13,21 @@ body {
 }
 
 .header {
+    display: flex;
     background-color: #023047;
+    font-size: small;
+    gap: 160px;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-left: 169px;
+}
+
+li {
+    margin-left: 10px;
 }
 
 .section1 {
@@ -36,10 +50,51 @@ body {
 }
 
 .footer {
+    display: flex;
     background-color: #1d3557;
+    color: whitesmoke;
+    font-size: x-small;
+    justify-content: center;
+    font-weight: 550;
 }
 
 .section1, .section2, .section3, .section4 {
     display: flex;
     flex: 1;
+}
+
+.para-header {
+    font-weight: 1000;
+    margin-left: 5px;
+}
+
+.para1-section1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.para2-section1 {
+    font-size: small;
+}
+
+
+.para1-section1, .para2-section1 {
+    margin-left: 168px;
+}
+
+.left-section1, .right-section1 {
+    flex: 1;
+}
+
+.right-section1 {
+    display: flex;
+    background-color: #adb5bd;
+    justify-content: center;
+    align-items: center;
+    margin: 45px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    font-size: small;
+    color: whitesmoke;
 }

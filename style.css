@@ -1,0 +1,45 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    color: whitesmoke;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #023047;
+}
+
+.section1 {
+    background-color: #023047;
+}
+
+.section2 {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.section3 {
+    background-color: #dee2e6;
+    color: black;
+}
+
+.section4 {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.footer {
+    background-color: #1d3557;
+}
+
+.section1, .section2, .section3, .section4 {
+    display: flex;
+    flex: 1;
+}

@@ -98,3 +98,19 @@ li {
     font-size: small;
     color: whitesmoke;
 }
+
+.button1 {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: small;
+    font-weight: 550;
+    background-color: #42a5f5;
+    border: 0.2em solid #42a5f5;
+    border-radius: 2em;
+    padding: 5px;
+}
+
+.button1Container {
+    display: flex;
+    margin-left: 168px;
+}
